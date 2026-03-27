@@ -8052,113 +8052,146 @@
           "Text": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
+                    "id": "auto-1-1774579090096",
+                    "cssProperty": "border-radius",
                     "tokenPath": "CornerRadius.Button",
-                    "cssProperty": "border-radius"
+                    "tailwindPrefix": "rounded"
                   },
                   {
+                    "id": "auto-2-1774579090096",
+                    "cssProperty": "background-color",
                     "tokenPath": "Foreground.Primary (fg)",
-                    "cssProperty": "background-color"
+                    "tailwindPrefix": "bg"
                   },
                   {
+                    "id": "auto-3-1774579090096",
+                    "cssProperty": "color",
                     "tokenPath": "Foreground.Primary (fg)",
-                    "cssProperty": "color"
+                    "tailwindPrefix": "text"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           },
           "Tonal": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
+                    "id": "auto-4-1774579090096",
+                    "cssProperty": "border-radius",
                     "tokenPath": "CornerRadius.Button",
-                    "cssProperty": "border-radius"
+                    "tailwindPrefix": "rounded"
                   },
                   {
+                    "id": "auto-5-1774579090096",
+                    "cssProperty": "background-color",
                     "tokenPath": "Foreground.OnSecondaryContainer (fg)",
-                    "cssProperty": "background-color"
+                    "tailwindPrefix": "bg"
                   },
                   {
+                    "id": "auto-6-1774579090096",
+                    "cssProperty": "color",
                     "tokenPath": "Foreground.OnSecondaryContainer (fg)",
-                    "cssProperty": "color"
+                    "tailwindPrefix": "text"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           },
           "Filled": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
+                    "id": "auto-7-1774579090096",
+                    "cssProperty": "border-radius",
                     "tokenPath": "CornerRadius.Button",
-                    "cssProperty": "border-radius"
+                    "tailwindPrefix": "rounded"
                   },
                   {
+                    "id": "auto-8-1774579090096",
+                    "cssProperty": "background-color",
                     "tokenPath": "Foreground.OnPrimary (fg)",
-                    "cssProperty": "background-color"
+                    "tailwindPrefix": "bg"
                   },
                   {
+                    "id": "auto-9-1774579090096",
+                    "cssProperty": "color",
                     "tokenPath": "Foreground.OnPrimary (fg)",
-                    "cssProperty": "color"
+                    "tailwindPrefix": "text"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           },
           "Elevated": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
+                    "id": "auto-10-1774579090096",
+                    "cssProperty": "border-radius",
                     "tokenPath": "CornerRadius.Button",
-                    "cssProperty": "border-radius"
+                    "tailwindPrefix": "rounded"
                   },
                   {
+                    "id": "auto-11-1774579090096",
+                    "cssProperty": "background-color",
                     "tokenPath": "Foreground.Primary (fg)",
-                    "cssProperty": "background-color"
+                    "tailwindPrefix": "bg"
                   },
                   {
+                    "id": "auto-12-1774579090096",
+                    "cssProperty": "color",
                     "tokenPath": "Foreground.Primary (fg)",
-                    "cssProperty": "color"
+                    "tailwindPrefix": "text"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           },
           "Outlined": {
             "states": {
               "default": {
-                "staticClasses": "",
                 "tokenBindings": [
                   {
+                    "id": "auto-13-1774579090096",
+                    "cssProperty": "border-radius",
                     "tokenPath": "CornerRadius.Button",
-                    "cssProperty": "border-radius"
+                    "tailwindPrefix": "rounded"
                   },
                   {
+                    "id": "auto-14-1774579090096",
+                    "cssProperty": "border-color",
                     "tokenPath": "Outline.Outline",
-                    "cssProperty": "border-color"
+                    "tailwindPrefix": "border"
                   },
                   {
+                    "id": "auto-15-1774579090096",
+                    "cssProperty": "background-color",
                     "tokenPath": "Foreground.Primary (fg)",
-                    "cssProperty": "background-color"
+                    "tailwindPrefix": "bg"
                   },
                   {
+                    "id": "auto-16-1774579090096",
+                    "cssProperty": "color",
                     "tokenPath": "Foreground.Primary (fg)",
-                    "cssProperty": "color"
+                    "tailwindPrefix": "text"
                   }
-                ]
+                ],
+                "staticClasses": ""
               }
             }
           }
-        }
+        },
+        "icons": {}
       },
       "props": [
         {

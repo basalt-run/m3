@@ -1,0 +1,1040 @@
+{
+  "$schema": "https://tr.designtokens.org/format/",
+  "$metadata": {
+    "exportedFrom": "basalt.run",
+    "figmaFileId": "0:0",
+    "figmaFileName": "M3",
+    "exportedAt": "2026-03-27T02:30:30.814Z",
+    "tokenSetOrder": [
+      "Number",
+      "Color",
+      "Foreground",
+      "Background",
+      "Surface",
+      "Outline",
+      "Scrim",
+      "Shadow",
+      "Padding",
+      "Height",
+      "CornerRadius"
+    ]
+  },
+  "Number": {
+    "0": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": "2px"
+    },
+    "4": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "12": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "16": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "28": {
+      "$type": "dimension",
+      "$value": "28px"
+    },
+    "40": {
+      "$type": "dimension",
+      "$value": "40px"
+    },
+    "48": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "56": {
+      "$type": "dimension",
+      "$value": "56px"
+    },
+    "64": {
+      "$type": "dimension",
+      "$value": "64px"
+    },
+    "72": {
+      "$type": "dimension",
+      "$value": "72px"
+    },
+    "80": {
+      "$type": "dimension",
+      "$value": "80px"
+    },
+    "88": {
+      "$type": "dimension",
+      "$value": "88px"
+    },
+    "999": {
+      "$type": "dimension",
+      "$value": "999px"
+    }
+  },
+  "Color": {
+    "Primary (Purple)": {
+      "10": {
+        "$type": "color",
+        "$value": "#21005d"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "#381e72"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "#4f378b"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "#6750a4"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#7f67be"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "#9a82db"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "#b69df8"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "#d0bcff"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "#eaddff"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "#f6edff"
+      },
+      "99": {
+        "$type": "color",
+        "$value": "#fffbfe"
+      },
+      "StateLayers": {
+        "10": {
+          "10": {
+            "$type": "color",
+            "$value": "#21005d1a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#21005d29"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#21005d14"
+          }
+        },
+        "20": {
+          "10": {
+            "$type": "color",
+            "$value": "#381e721a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#381e7229"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#381e7214"
+          }
+        },
+        "40": {
+          "10": {
+            "$type": "color",
+            "$value": "#6750a41a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#6750a429"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#6750a414"
+          }
+        },
+        "80": {
+          "10": {
+            "$type": "color",
+            "$value": "#d0bcff1a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#d0bcff29"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#d0bcff14"
+          }
+        },
+        "90": {
+          "10": {
+            "$type": "color",
+            "$value": "#eaddff1a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#eaddff29"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#eaddff14"
+          }
+        }
+      }
+    },
+    "Secondary (Muted Purple)": {
+      "10": {
+        "$type": "color",
+        "$value": "#1d192b"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "#332d41"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "#4a4458"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "#625b71"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#7a7289"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "#958da5"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "#b0a7c0"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "#ccc2dc"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "#e8def8"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "#f6edff"
+      },
+      "99": {
+        "$type": "color",
+        "$value": "#fffbfe"
+      },
+      "StateLayers": {
+        "10": {
+          "10": {
+            "$type": "color",
+            "$value": "#1d192b1a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#1d192b29"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#1d192b14"
+          }
+        },
+        "80": {
+          "10": {
+            "$type": "color",
+            "$value": "#ccc2dc1a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#ccc2dc29"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#ccc2dc14"
+          }
+        }
+      }
+    },
+    "Tertiary (Mauve)": {
+      "10": {
+        "$type": "color",
+        "$value": "#31111d"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "#492532"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "#633b48"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "#7d5260"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#986977"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "#b58392"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "#d29dac"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "#efb8c8"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "#ffd8e4"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "#ffecf1"
+      },
+      "99": {
+        "$type": "color",
+        "$value": "#fffbfa"
+      },
+      "StateLayers": {
+        "10": {
+          "10": {
+            "$type": "color",
+            "$value": "#31111d1a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#31111d29"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#31111d14"
+          }
+        },
+        "80": {
+          "10": {
+            "$type": "color",
+            "$value": "#efb8c81a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#efb8c829"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#efb8c814"
+          }
+        }
+      }
+    },
+    "Error (Red)": {
+      "10": {
+        "$type": "color",
+        "$value": "#410e0b"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "#601410"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "#8c1d18"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "#b3261e"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#dc362e"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "#e46962"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "#ec928e"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "#f2b8b5"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "#f9dedc"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "#fceeee"
+      },
+      "99": {
+        "$type": "color",
+        "$value": "#fffbf9"
+      },
+      "StateLayers": {
+        "40": {
+          "10": {
+            "$type": "color",
+            "$value": "#b3261e1a"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#b3261e14"
+          }
+        },
+        "80": {
+          "10": {
+            "$type": "color",
+            "$value": "#f2b8b51a"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#f2b8b514"
+          }
+        }
+      }
+    },
+    "Neutral": {
+      "4": {
+        "$type": "color",
+        "$value": "#0f0d13"
+      },
+      "6": {
+        "$type": "color",
+        "$value": "#141218"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "#1d1b20"
+      },
+      "12": {
+        "$type": "color",
+        "$value": "#211f26"
+      },
+      "17": {
+        "$type": "color",
+        "$value": "#2b2930"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "#322f35"
+      },
+      "22": {
+        "$type": "color",
+        "$value": "#36343b"
+      },
+      "24": {
+        "$type": "color",
+        "$value": "#3b383e"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "#48464c"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "#605d64"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#79767d"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "#938f96"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "#aea9b1"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "#cac5cd"
+      },
+      "87": {
+        "$type": "color",
+        "$value": "#ded8e1"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "#e6e0e9"
+      },
+      "92": {
+        "$type": "color",
+        "$value": "#ece6f0"
+      },
+      "94": {
+        "$type": "color",
+        "$value": "#f3edf7"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "#f5eff7"
+      },
+      "96": {
+        "$type": "color",
+        "$value": "#f7f2fa"
+      },
+      "98": {
+        "$type": "color",
+        "$value": "#fef7ff"
+      },
+      "99": {
+        "$type": "color",
+        "$value": "#fffbfe"
+      },
+      "StateLayers": {
+        "10": {
+          "10": {
+            "$type": "color",
+            "$value": "#1d1b201a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#1d1b2029"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#1d1b2014"
+          }
+        },
+        "20": {
+          "10": {
+            "$type": "color",
+            "$value": "#322f351a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#322f3529"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#322f3514"
+          }
+        },
+        "90": {
+          "10": {
+            "$type": "color",
+            "$value": "#e6e0e91a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#e6e0e929"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#e6e0e914"
+          }
+        },
+        "95": {
+          "10": {
+            "$type": "color",
+            "$value": "#f5eff71a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#f5eff729"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#f5eff714"
+          }
+        }
+      }
+    },
+    "Neutral Variant": {
+      "10": {
+        "$type": "color",
+        "$value": "#1d1a22"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "#322f37"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "#49454f"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "#605d66"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#79747e"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "#938f99"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "#aea9b4"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "#cac4d0"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "#e7e0ec"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "#f5eefa"
+      },
+      "99": {
+        "$type": "color",
+        "$value": "#fffbfe"
+      },
+      "StateLayers": {
+        "30": {
+          "10": {
+            "$type": "color",
+            "$value": "#49454f1a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#49454f29"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#49454f14"
+          }
+        },
+        "80": {
+          "10": {
+            "$type": "color",
+            "$value": "#cac4d01a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#cac4d029"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#cac4d014"
+          }
+        }
+      }
+    },
+    "Base": {
+      "Black": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "White": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "StateLayers": {
+        "White": {
+          "10": {
+            "$type": "color",
+            "$value": "#ffffff1a"
+          },
+          "16": {
+            "$type": "color",
+            "$value": "#ffffff29"
+          },
+          "08": {
+            "$type": "color",
+            "$value": "#ffffff14"
+          }
+        }
+      }
+    }
+  },
+  "Foreground": {
+    "Primary (fg)": {
+      "$type": "color",
+      "$value": "{Color.Primary (Purple).80}"
+    },
+    "OnPrimary (fg)": {
+      "$type": "color",
+      "$value": "{Color.Primary (Purple).20}"
+    },
+    "OnPrimaryContainer (fg)": {
+      "$type": "color",
+      "$value": "{Color.Primary (Purple).90}"
+    },
+    "OnPrimaryFixed (fg)": {
+      "$type": "color",
+      "$value": "{Color.Primary (Purple).10}"
+    },
+    "OnPrimaryFixedVar (fg)": {
+      "$type": "color",
+      "$value": "{Color.Primary (Purple).30}"
+    },
+    "Secondary (fg)": {
+      "$type": "color",
+      "$value": "{Color.Secondary (Muted Purple).80}"
+    },
+    "OnSecondary (fg)": {
+      "$type": "color",
+      "$value": "{Color.Secondary (Muted Purple).20}"
+    },
+    "OnSecondaryContainer (fg)": {
+      "$type": "color",
+      "$value": "{Color.Secondary (Muted Purple).90}"
+    },
+    "OnSecondaryFixed (fg)": {
+      "$type": "color",
+      "$value": "{Color.Secondary (Muted Purple).10}"
+    },
+    "OnSecondaryFixedVar (fg)": {
+      "$type": "color",
+      "$value": "{Color.Secondary (Muted Purple).30}"
+    },
+    "OnTertiary (fg)": {
+      "$type": "color",
+      "$value": "{Color.Tertiary (Mauve).20}"
+    },
+    "OnTertiaryContainer (fg)": {
+      "$type": "color",
+      "$value": "{Color.Tertiary (Mauve).90}"
+    },
+    "OnTertiaryFixed (fg)": {
+      "$type": "color",
+      "$value": "{Color.Tertiary (Mauve).10}"
+    },
+    "OnFertiaryFixedVar (fg)": {
+      "$type": "color",
+      "$value": "{Color.Tertiary (Mauve).30}"
+    },
+    "Error": {
+      "$type": "color",
+      "$value": "{Color.Error (Red).80}"
+    },
+    "OnError (fg)": {
+      "$type": "color",
+      "$value": "{Color.Error (Red).20}"
+    },
+    "OnErrorContainer (fg)": {
+      "$type": "color",
+      "$value": "{Color.Error (Red).90}"
+    },
+    "OnSurface (fg)": {
+      "$type": "color",
+      "$value": "{Color.Neutral.87}"
+    },
+    "OnSurfaceVar (fg)": {
+      "$type": "color",
+      "$value": "{Color.Neutral Variant.80}"
+    },
+    "OnSurfaceInverse (fg)": {
+      "$type": "color",
+      "$value": "{Color.Neutral.20}"
+    }
+  },
+  "Background": {
+    "Primary (bg)": {
+      "$type": "color",
+      "$value": "{Color.Primary (Purple).80}"
+    },
+    "PrimaryContainer (bg)": {
+      "$type": "color",
+      "$value": "{Color.Primary (Purple).30}"
+    },
+    "PrimaryFixed (bg)": {
+      "$type": "color",
+      "$value": "{Color.Primary (Purple).90}"
+    },
+    "PrimaryFixedDim (bg)": {
+      "$type": "color",
+      "$value": "{Color.Primary (Purple).80}"
+    },
+    "Secondary (bg)": {
+      "$type": "color",
+      "$value": "{Color.Secondary (Muted Purple).80}"
+    },
+    "SecondaryContainer (bg)": {
+      "$type": "color",
+      "$value": "{Color.Secondary (Muted Purple).30}"
+    },
+    "SecondaryFixed (bg)": {
+      "$type": "color",
+      "$value": "{Color.Secondary (Muted Purple).90}"
+    },
+    "SecondaryFixedDim (bg)": {
+      "$type": "color",
+      "$value": "{Color.Secondary (Muted Purple).80}"
+    },
+    "Tertiary (bg)": {
+      "$type": "color",
+      "$value": "{Color.Tertiary (Mauve).80}"
+    },
+    "TertiaryContainer (bg)": {
+      "$type": "color",
+      "$value": "{Color.Tertiary (Mauve).30}"
+    },
+    "TertiaryFixed (bg)": {
+      "$type": "color",
+      "$value": "{Color.Tertiary (Mauve).90}"
+    },
+    "TertiaryFixed-Dim (bg)": {
+      "$type": "color",
+      "$value": "{Color.Tertiary (Mauve).80}"
+    },
+    "Error (bg)": {
+      "$type": "color",
+      "$value": "{Color.Error (Red).80}"
+    },
+    "ErrorContainer (bg)": {
+      "$type": "color",
+      "$value": "{Color.Error (Red).30}"
+    },
+    "StateLayers": {
+      "OnPrimaryHover": {
+        "$type": "color",
+        "$value": "{Color.Primary (Purple).StateLayers.20.08}"
+      },
+      "OnPrimaryFocus_Press": {
+        "$type": "color",
+        "$value": "{Color.Primary (Purple).StateLayers.20.10}"
+      },
+      "Disabled": {
+        "$type": "color",
+        "$value": "{Color.Neutral.StateLayers.90.10}"
+      },
+      "PrimaryHover": {
+        "$type": "color",
+        "$value": "{Color.Primary (Purple).StateLayers.80.08}"
+      },
+      "PrimaryFocus_Press": {
+        "$type": "color",
+        "$value": "{Color.Primary (Purple).StateLayers.80.10}"
+      },
+      "PrimaryContainerHover": {
+        "$type": "color",
+        "$value": "{Color.Primary (Purple).StateLayers.80.08}"
+      },
+      "PrimaryContainerFocus_Press": {
+        "$type": "color",
+        "$value": "{Color.Primary (Purple).StateLayers.80.08}"
+      },
+      "SecondaryContainerHover": {
+        "$type": "color",
+        "$value": "{Color.Secondary (Muted Purple).StateLayers.80.08}"
+      },
+      "SecondaryFocus_Press": {
+        "$type": "color",
+        "$value": "{Color.Secondary (Muted Purple).StateLayers.80.10}"
+      },
+      "TertiaryContainerHover": {
+        "$type": "color",
+        "$value": "{Color.Tertiary (Mauve).StateLayers.80.08}"
+      },
+      "TertiaryContainerFocus_Press": {
+        "$type": "color",
+        "$value": "{Color.Tertiary (Mauve).StateLayers.80.10}"
+      },
+      "SecondaryDrag": {
+        "$type": "color",
+        "$value": "{Color.Secondary (Muted Purple).StateLayers.80.16}"
+      },
+      "SurfaceHover": {
+        "$type": "color",
+        "$value": "{Color.Neutral.StateLayers.90.08}"
+      },
+      "SurfaceFocus_Press": {
+        "$type": "color",
+        "$value": "{Color.Neutral.StateLayers.90.10}"
+      },
+      "SurfaceDrag": {
+        "$type": "color",
+        "$value": "{Color.Neutral.StateLayers.90.16}"
+      },
+      "InverseSurfaceHover": {
+        "$type": "color",
+        "$value": "{Color.Neutral.StateLayers.20.08}"
+      },
+      "InverseSurfaceFocus_Press": {
+        "$type": "color",
+        "$value": "{Color.Neutral.StateLayers.20.08}"
+      },
+      "ErrorHover": {
+        "$type": "color",
+        "$value": "{Color.Error (Red).StateLayers.80.08}"
+      },
+      "ErrorFocused_Pressed": {
+        "$type": "color",
+        "$value": "{Color.Error (Red).StateLayers.80.10}"
+      }
+    }
+  },
+  "Surface": {
+    "Surface": {
+      "$type": "color",
+      "$value": "{Color.Neutral.6}"
+    },
+    "SurfaceDim": {
+      "$type": "color",
+      "$value": "{Color.Neutral.6}"
+    },
+    "SurfaceBright": {
+      "$type": "color",
+      "$value": "{Color.Neutral.24}"
+    },
+    "SurfaceContainerLowest": {
+      "$type": "color",
+      "$value": "{Color.Neutral.4}"
+    },
+    "SurfaceContainerLow": {
+      "$type": "color",
+      "$value": "{Color.Neutral.10}"
+    },
+    "SurfaceContainer": {
+      "$type": "color",
+      "$value": "{Color.Neutral.12}"
+    },
+    "SurfaceContainerHigh": {
+      "$type": "color",
+      "$value": "{Color.Neutral.17}"
+    },
+    "SurfaceContainerHighest": {
+      "$type": "color",
+      "$value": "{Color.Neutral.22}"
+    },
+    "SurfaceInverse": {
+      "$type": "color",
+      "$value": "{Color.Neutral.90}"
+    },
+    "SurfaceInversePrimary": {
+      "$type": "color",
+      "$value": "{Color.Primary (Purple).40}"
+    }
+  },
+  "Outline": {
+    "Outline": {
+      "$type": "color",
+      "$value": "{Color.Neutral Variant.60}"
+    },
+    "OutlineVar": {
+      "$type": "color",
+      "$value": "{Color.Neutral Variant.30}"
+    }
+  },
+  "Scrim": {
+    "$type": "color",
+    "$value": "{Color.Base.Black}"
+  },
+  "Shadow": {
+    "$type": "color",
+    "$value": "{Color.Base.Black}"
+  },
+  "Padding": {
+    "Vertical": {
+      "sm": {
+        "$type": "dimension",
+        "$value": "{Number.4}"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{Number.8}"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "{Number.12}"
+      }
+    }
+  },
+  "Height": {
+    "sm": {
+      "$type": "dimension",
+      "$value": "{Number.48}"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "{Number.64}"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "{Number.80}"
+    }
+  },
+  "CornerRadius": {
+    "Button": {
+      "$type": "dimension",
+      "$value": "{CornerRadius.Full}"
+    },
+    "Card": {
+      "$type": "dimension",
+      "$value": "{Number.12}"
+    },
+    "Checkbox": {
+      "$type": "dimension",
+      "$value": "{Number.2}"
+    },
+    "Chip": {
+      "$type": "dimension",
+      "$value": "{Number.8}"
+    },
+    "Carousel Item": {
+      "$type": "dimension",
+      "$value": "{Number.28}"
+    },
+    "FabSmall": {
+      "$type": "dimension",
+      "$value": "{Number.12}"
+    },
+    "FabMedium": {
+      "$type": "dimension",
+      "$value": "{Number.16}"
+    },
+    "FabLarge": {
+      "$type": "dimension",
+      "$value": "{Number.28}"
+    },
+    "Field": {
+      "$type": "dimension",
+      "$value": "{Number.4}"
+    },
+    "Full": {
+      "$type": "dimension",
+      "$value": "{Number.999}"
+    },
+    "SheetHard": {
+      "$type": "dimension",
+      "$value": "{Number.4}"
+    },
+    "SheetMedium": {
+      "$type": "dimension",
+      "$value": "{Number.16}"
+    },
+    "SheetSoft": {
+      "$type": "dimension",
+      "$value": "{Number.28}"
+    },
+    "Snackbar": {
+      "$type": "dimension",
+      "$value": "{Number.4}"
+    }
+  }
+}

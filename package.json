@@ -1,0 +1,54 @@
+{
+  "name": "@basalt-run/m3",
+  "version": "1.0.0",
+  "description": "Design system tokens — Code-native, Git-backed, AI-ready.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./css": "./dist/tokens.css",
+    "./tailwind": "./dist/tailwind.config.js",
+    "./components": {
+      "types": "./dist/components/index.ts",
+      "import": "./dist/components/index.ts"
+    },
+    "./tokens": "./tokens"
+  },
+  "files": [
+    "dist",
+    "tokens",
+    "components.json",
+    "icons"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "design-system",
+    "tokens",
+    "dtcg",
+    "basalt"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basalt-run/m3"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "tailwindcss": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
